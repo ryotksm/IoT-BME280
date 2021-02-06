@@ -35,7 +35,8 @@ void setup()
 
   while(!Serial) {} // Wait
 
-  Wire.begin(12,14);
+  //Wire.begin(12,14);
+  Wire.begin();
 
   while(!bme.begin())
   {

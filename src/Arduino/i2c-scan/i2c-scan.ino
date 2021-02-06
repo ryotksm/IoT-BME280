@@ -12,6 +12,7 @@
  
 void setup() {
   Wire.begin(12,14);                       // 引数無しは (4, 5)と同じ (SDA,SCL)
+//  Wire.begin();
   Serial.begin(115200);
   Serial.println(); Serial.println("Start I2C address scanner"); 
   }
